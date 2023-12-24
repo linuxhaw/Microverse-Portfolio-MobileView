@@ -139,7 +139,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:linuxhaw/Portfolio-SetUp-and-Mobile.git
+  git clone git@github.com:linuxhaw/Microverse-Portfolio-MobileView
 ```
 
 -
@@ -151,7 +151,7 @@ Install this project with:
 Example command:
 
 ```sh
-  cd Portfolio-SetUp-and-Mobile
+  cd Microverse-Portfolio-MobileView
   npm install
 ```
 
@@ -224,7 +224,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [https://github.com/linuxhaw/Portfolio-SetUp-and-Mobile/issues](../../issues/).
+Feel free to check the [https://github.com/linuxhaw/Microverse-Portfolio-MobileView/issues](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
