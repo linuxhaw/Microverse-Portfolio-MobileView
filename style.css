@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family");
+@import url("https://fonts.googleapis.com/css?family=Crete Round");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+@media only screen and (max-width: 768px) {
+  * {
+    padding: 0%;
+    margin: 0%;
+  }
+
+  header,
+  .top-bar {
+    width: 100%;
+    background-color: #3c3a39;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+  }
+
+  .top-bar {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  header a {
+    color: var(--Theme-3-Neutral-11, #fff);
+    text-align: center;
+    font-family: "Roboto", serif, Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 133.333% */
+    text-decoration: none;
+  }
+
+  .name {
+    color: var(--Theme-3-Primary-1, #fff);
+  }
+
+  .hero {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 120px 0 120px 0;
+    gap: 12px;
+    width: 100%;
+    height: 590px;
+    background: #1c1a19;
+    background-image: url(./assets/images/Illustration.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
+  .greeting {
+    color: var(--Theme-3-Primary-1, #ff6b00);
+    font-family: "Crete Round", serif, Arial;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px; /* 114.286% */
+    letter-spacing: 0.37px;
+    position: relative;
+    width: 327px;
+    text-align: left;
+    margin-bottom: 0%;
+    padding-left: 24px;
+  }
+
+  .job-description {
+    color: var(--Theme-3-Primary-4, #fff5e1);
+    font-family: "Roboto", serif, Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    width: 327px;
+    height: 27px;
+    align-items: center;
+    flex-grow: 0;
+    padding-left: 24px;
+  }
+
+  .job-details {
+    color: var(--Theme-3-Neutral-11, #fff);
+    font-family: "Poppins", serif, Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    height: 123px;
+    margin: 10px 0 0 0;
+    padding-right: 20px;
+    align-content: center;
+    padding-left: 24px;
+  }
+
+  .social-media-links {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 50px;
+    list-style: none;
+    align-items: center;
+    padding-left: 24px;
+  }
+
+  rect {
+    fill: #ff6b00;
+  }
+}
