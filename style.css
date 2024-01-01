@@ -152,7 +152,7 @@
 
   .best-work {
     display: flex;
-    padding: 0px 24px;
+    padding: 0 24px;
     padding-top: 80px;
     flex-direction: column;
     align-items: flex-start;
@@ -169,7 +169,7 @@
 
   .best-work .card-title {
     color: var(--Neutrals-N900, #091e42);
-    font-family: Crete Round;
+    font-family: "Crete Round", Arial, Helvetica;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -184,7 +184,7 @@
   .best-work .card-content {
     width: 100%;
     color: var(--Neutrals-N900, #091e42);
-    font-family: Inter;
+    font-family: "Inter", Arial, Helvetica;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -205,7 +205,7 @@
     list-style-type: none;
   }
 
-  .best-work .languages li {
+  .best-work .languages .best-work-li {
     border: 1px solid var(--Neutrals-N90, #8993a4);
     background: var(--Neutrals-N0, #fff);
     padding: 10px 12px;
@@ -218,7 +218,7 @@
     align-items: center;
     gap: 10px;
     color: var(--Theme-2-Neutral-11, #fff);
-    font-family: Inter;
+    font-family: "Inter", Arial, Helvetica;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
@@ -233,7 +233,6 @@
     grid-template-columns: repeat(1fr);
     justify-content: center;
     gap: 24px;
-    /* width: 100%; */
     height: auto;
     padding-left: 24px;
     padding-right: 24px;
@@ -266,7 +265,7 @@
     width: 100%;
     height: 81px;
     color: var(--Neutrals-N0, #fff);
-    font-family: Crete Round;
+    font-family: "Crete Round", Arial, Serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -276,7 +275,7 @@
   .cards-frame .card-content {
     width: 100%;
     color: #fff;
-    font-family: Inter;
+    font-family: "Inter", Arial, Helvetica;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -289,14 +288,14 @@
     align-items: center;
     list-style-type: none;
     color: var(--Neutrals-N0, #fff);
-    font-family: Inter;
+    font-family: "Inter", Arial, Helvetica;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px; /* 133.333% */
   }
 
-  .cards-frame .languages li {
+  .cards-frame .languages .cards-frame-li {
     background: rgba(255, 255, 255, 0.24);
     padding: 10px 12px;
   }
@@ -312,7 +311,7 @@
     flex-shrink: 0;
     color: var(--Theme-2-Neutral-11, #fff);
     text-align: center;
-    font-family: Inter;
+    font-family: "Inter", Arial, Helvetica;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
@@ -342,7 +341,7 @@
     width: 100%;
     height: auto;
     color: var(--Theme-3-Primary-1, #ff6b00);
-    font-family: Crete Round;
+    font-family: "Crete Round", Arial, Serif;
     font-size: 70px;
     font-style: normal;
     font-weight: 400;
@@ -354,7 +353,7 @@
     width: 100%;
     height: auto;
     color: var(--Neutrals-N20, #f4f5f7);
-    font-family: Inter;
+    font-family: "Inter", Arial, Helvetica;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -364,7 +363,7 @@
   .about-card .resume {
     color: var(--Theme-2-Neutral-11, #fff);
     text-align: center;
-    font-family: Inter;
+    font-family: "Inter", Arial, Helvetica;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
@@ -386,7 +385,6 @@
 
   .about .stack {
     display: inline-flex;
-    /* padding: 120px 24px 38px 24px; */
     padding-top: 120px;
     padding-bottom: 38px;
     flex-direction: column;
@@ -407,17 +405,17 @@
 
   .stack .title {
     color: #fff;
-    font-family: InaiMathi;
+    font-family: "InaiMathi", Inter, Serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 44px;
   }
 
-  .stack li {
+  .stack .stack-li {
     color: #fff;
     text-align: center;
-    font-family: Inter;
+    font-family: "Inter", Arial, Helvetica;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -426,14 +424,13 @@
   }
 
   .form {
-    /* width: 100%; */
     height: auto;
     display: inline-flex;
     padding: 120px 24px 80px 24px;
     flex-direction: column;
     align-items: flex-start;
     gap: 58px;
-    color: #ffffff;
+    color: #fff;
   }
 
   .form .form-title {
@@ -442,7 +439,7 @@
     flex-shrink: 0;
     color: var(--Neutrals-N800, #172b4d);
     text-align: center;
-    font-family: InaiMathi;
+    font-family: "InaiMathi", Inter, Serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -460,7 +457,7 @@
 
   .form .input {
     color: var(--Theme-3-Neutral-6, #979493);
-    font-family: Inter;
+    font-family: "Inter", Arial, Helvetica;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -469,7 +466,6 @@
     width: 100%;
     height: 36px;
     border-width: 0 0 2px 0;
-    color: #ff6b00;
     border-color: #dbd8d7;
     background-color: transparent;
     align-content: center;
@@ -477,7 +473,7 @@
 
   .form .input-address {
     color: var(--Theme-3-Neutral-2, #3c3a39);
-    font-family: Inter;
+    font-family: "Inter", Arial, Helvetica;
     font-size: 15px;
     font-style: italic;
     font-weight: 400;
@@ -486,7 +482,6 @@
     width: 100%;
     height: 36px;
     border-width: 0 0 2px 0;
-    color: #ff6b00;
     border-color: #dbd8d7;
     background-color: transparent;
     align-content: center;
@@ -495,7 +490,7 @@
   .form .get-in-touch {
     color: var(--Theme-2-Neutral-11, #fff);
     text-align: center;
-    font-family: Inter;
+    font-family: "Inter", Arial, Helvetica;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
@@ -517,7 +512,6 @@
 
   .btn-navi {
     display: flex;
-    /* width: 100%; */
     padding-bottom: 16px;
     flex-direction: column;
     align-items: center;
@@ -535,7 +529,6 @@
 
   .home-indicator-frame {
     display: flex;
-    /* width: 100%; */
     height: 34px;
     padding: 21px 121px 8px 120px;
     justify-content: center;
