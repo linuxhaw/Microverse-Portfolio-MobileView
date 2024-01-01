@@ -169,7 +169,7 @@
 
   .best-work .card-title {
     color: var(--Neutrals-N900, #091e42);
-    font-family: "Crete Round", Arial, Helvetica;
+    font-family: "Crete Round", serif, Arial;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -184,7 +184,7 @@
   .best-work .card-content {
     width: 100%;
     color: var(--Neutrals-N900, #091e42);
-    font-family: "Inter", Arial, Helvetica;
+    font-family: "Inter", serif, Arial;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -218,7 +218,7 @@
     align-items: center;
     gap: 10px;
     color: var(--Theme-2-Neutral-11, #fff);
-    font-family: "Inter", Arial, Helvetica;
+    font-family: "Inter", serif, Arial;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
@@ -265,7 +265,7 @@
     width: 100%;
     height: 81px;
     color: var(--Neutrals-N0, #fff);
-    font-family: "Crete Round", Arial, Serif;
+    font-family: "Crete Round", Arial, serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -275,7 +275,7 @@
   .cards-frame .card-content {
     width: 100%;
     color: #fff;
-    font-family: "Inter", Arial, Helvetica;
+    font-family: "Inter", serif, Arial;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -288,7 +288,7 @@
     align-items: center;
     list-style-type: none;
     color: var(--Neutrals-N0, #fff);
-    font-family: "Inter", Arial, Helvetica;
+    font-family: "Inter", serif, Arial;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -311,7 +311,7 @@
     flex-shrink: 0;
     color: var(--Theme-2-Neutral-11, #fff);
     text-align: center;
-    font-family: "Inter", Arial, Helvetica;
+    font-family: "Inter", serif, Arial;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
@@ -341,7 +341,7 @@
     width: 100%;
     height: auto;
     color: var(--Theme-3-Primary-1, #ff6b00);
-    font-family: "Crete Round", Arial, Serif;
+    font-family: "Crete Round", serif, Arial;
     font-size: 70px;
     font-style: normal;
     font-weight: 400;
@@ -353,7 +353,7 @@
     width: 100%;
     height: auto;
     color: var(--Neutrals-N20, #f4f5f7);
-    font-family: "Inter", Arial, Helvetica;
+    font-family: "Inter", serif, Arial;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -363,7 +363,7 @@
   .about-card .resume {
     color: var(--Theme-2-Neutral-11, #fff);
     text-align: center;
-    font-family: "Inter", Arial, Helvetica;
+    font-family: "Inter", serif, Arial;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
@@ -405,7 +405,7 @@
 
   .stack .title {
     color: #fff;
-    font-family: "InaiMathi", Inter, Serif;
+    font-family: "InaiMathi", serif, Arial;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -415,7 +415,7 @@
   .stack .stack-li {
     color: #fff;
     text-align: center;
-    font-family: "Inter", Arial, Helvetica;
+    font-family: "Inter", serif, Arial;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -439,7 +439,7 @@
     flex-shrink: 0;
     color: var(--Neutrals-N800, #172b4d);
     text-align: center;
-    font-family: "InaiMathi", Inter, Serif;
+    font-family: "InaiMathi", Inter, serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -457,7 +457,7 @@
 
   .form .input {
     color: var(--Theme-3-Neutral-6, #979493);
-    font-family: "Inter", Arial, Helvetica;
+    font-family: "Inter", serif, Arial;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -473,7 +473,7 @@
 
   .form .input-address {
     color: var(--Theme-3-Neutral-2, #3c3a39);
-    font-family: "Inter", Arial, Helvetica;
+    font-family: "Inter", serif, Arial;
     font-size: 15px;
     font-style: italic;
     font-weight: 400;
@@ -490,7 +490,7 @@
   .form .get-in-touch {
     color: var(--Theme-2-Neutral-11, #fff);
     text-align: center;
-    font-family: "Inter", Arial, Helvetica;
+    font-family: "Inter", serif, Arial;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
